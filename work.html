@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Work | Byteforge Dev</title>
+<meta name="description" content="A look at recent Byteforge Dev projects: web apps and sites built for logistics, healthcare, fintech, and e-commerce clients, with the technical results behind each build.">
+<link rel="canonical" href="https://byteforge-dev-3bdc.sites.tibly.ai/work">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://byteforge-dev-3bdc.sites.tibly.ai/work">
+<meta property="og:site_name" content="Byteforge Dev">
+<meta property="og:title" content="Work | Byteforge Dev">
+<meta property="og:description" content="A look at recent Byteforge Dev projects: web apps and sites built for logistics, healthcare, fintech, and e-commerce clients, with the technical results behind each build.">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<style>details[open] > *:not(summary){animation:tibly-acc .35s ease}@keyframes tibly-acc{from{opacity:0;transform:translateY(-4px)}}</style>
+<style>@media (prefers-reduced-motion:no-preference){.tibly-fx{opacity:0;transform:translateY(24px);transition:opacity .7s ease,transform .7s ease}.tibly-fx.tibly-fx-in{opacity:1;transform:none}}</style>
+<script>addEventListener('DOMContentLoaded',function(){if(!('IntersectionObserver' in window))return;var io=new IntersectionObserver(function(es){es.forEach(function(en){if(en.isIntersecting){en.target.classList.add('tibly-fx-in');io.unobserve(en.target)}})},{rootMargin:'0px 0px -8% 0px'});document.querySelectorAll('section[data-block] > *').forEach(function(el){if(el.getBoundingClientRect().top>innerHeight){el.classList.add('tibly-fx');io.observe(el)}})});</script>
+<style>.tibly-ba{position:relative;overflow:hidden;--ba:50%}.tibly-ba>img{display:block;width:100%;height:100%;object-fit:cover}.tibly-ba .tibly-ba-before{position:absolute;inset:0;clip-path:inset(0 calc(100% - var(--ba)) 0 0)}.tibly-ba .tibly-ba-before img{display:block;width:100%;height:100%;object-fit:cover}.tibly-ba::after{content:'';position:absolute;top:0;bottom:0;left:var(--ba);width:2px;margin-left:-1px;background:#fff;box-shadow:0 0 6px rgba(0,0,0,.55);pointer-events:none;z-index:1}.tibly-ba::before{content:'';position:absolute;top:50%;left:var(--ba);width:44px;height:44px;transform:translate(-50%,-50%);border-radius:9999px;background:rgba(0,0,0,.75) url("data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2024%2024'%20fill='%23fff'%3E%3Cpath%20d='M9%206l-6%206%206%206zM15%206l6%206-6%206z'/%3E%3C/svg%3E") center/22px 22px no-repeat;border:2px solid #fff;box-shadow:0 2px 8px rgba(0,0,0,.4);pointer-events:none;z-index:1}.tibly-ba input[type=range]{position:absolute;inset:0;width:100%;height:100%;margin:0;opacity:0;cursor:ew-resize;-webkit-appearance:none;appearance:none;touch-action:none;z-index:2}[data-lightbox]{cursor:zoom-in}.tibly-lb{position:fixed;inset:0;z-index:9999;background:rgba(0,0,0,.92);display:flex;align-items:center;justify-content:center;cursor:zoom-out;padding:24px}.tibly-lb img{max-width:100%;max-height:100%;object-fit:contain}</style>
+<script>document.addEventListener('input',function(e){var t=e.target;if(!t||t.type!=='range')return;var c=t.closest&&t.closest('.tibly-ba');if(c)c.style.setProperty('--ba',t.value+'%')});document.addEventListener('click',function(e){var im=e.target.closest&&e.target.closest('[data-lightbox]');if(!im||!(im.currentSrc||im.src))return;e.preventDefault();var o=document.createElement('div');o.className='tibly-lb';var big=document.createElement('img');big.src=im.currentSrc||im.src;big.alt=im.alt||'';o.appendChild(big);o.addEventListener('click',function(){o.remove()});document.addEventListener('keydown',function esc(ev){if(ev.key==='Escape'){o.remove();document.removeEventListener('keydown',esc)}});document.body.appendChild(o)});document.addEventListener('click',function(e){var x=e.target.closest&&e.target.closest('[data-announce-close]');if(!x)return;var b=x.closest('[data-announce]');if(b){b.style.display='none';try{sessionStorage.setItem('tibly-announce','1')}catch(_){}}});addEventListener('DOMContentLoaded',function(){try{if(sessionStorage.getItem('tibly-announce')==='1'){var b=document.querySelector('[data-announce]');if(b)b.style.display='none'}}catch(_){}if('IntersectionObserver' in window&&!matchMedia('(prefers-reduced-motion:reduce)').matches){var els=document.querySelectorAll('[data-count]');if(els.length){var io=new IntersectionObserver(function(es){es.forEach(function(en){if(!en.isIntersecting)return;io.unobserve(en.target);var el=en.target,s=el.textContent||'',m=s.match(/[\d,]*\d(?:\.\d+)?/);if(!m)return;var raw=m[0],num=parseFloat(raw.replace(/,/g,''));if(!isFinite(num))return;var pre=s.slice(0,m.index),post=s.slice(m.index+raw.length),grp=raw.indexOf(',')>=0,dec=(raw.split('.')[1]||'').length,t0=performance.now();requestAnimationFrame(function tick(now){var p=Math.min((now-t0)/1400,1);p=1-Math.pow(1-p,3);var v=(num*p).toFixed(dec);if(grp)v=Number(v).toLocaleString('en-US',{minimumFractionDigits:dec});el.textContent=pre+v+post;if(p<1)requestAnimationFrame(tick)})})},{rootMargin:'0px 0px -10% 0px'});els.forEach(function(el){io.observe(el)})}}var badge=document.querySelector('[data-tibly-open]');if(badge){var src=document.querySelector('[data-tibly-field="hours"]');var txt=(src&&src.textContent||'').toLowerCase();var days=['sun','mon','tue','wed','thu','fri','sat'];var toMin=function(h,mm,ap){h=+h;mm=+(mm||0);if(ap==='pm'&&h!==12)h+=12;if(ap==='am'&&h===12)h=0;return h*60+mm};var spans=[];var re=/(sun|mon|tue|wed|thu|fri|sat|daily|every ?day)[a-z]*\s*(?:[-\u2013\u2014]\s*(sun|mon|tue|wed|thu|fri|sat)[a-z]*)?\s*:?\s*(\d{1,2})(?::(\d{2}))?\s*(am|pm)?\s*[-\u2013\u2014]\s*(\d{1,2})(?::(\d{2}))?\s*(am|pm)?/g,mm;while((mm=re.exec(txt))){var d1=mm[1].slice(0,3),d2=mm[2],ap1=mm[5]||(mm[8]==='pm'&&+mm[3]<=+mm[6]?'am':mm[8]),o=toMin(mm[3],mm[4],ap1),c=toMin(mm[6],mm[7],mm[8]);var from=d1==='dai'||d1==='eve'?0:days.indexOf(d1),to=d2?days.indexOf(d2.slice(0,3)):(d1==='dai'||d1==='eve'?6:from);if(from<0)continue;for(var d=from;;d=(d+1)%7){spans.push([d,o,c]);if(d===to)break}}if(spans.length){var now=new Date(),cur=now.getDay(),min=now.getHours()*60+now.getMinutes();var open=spans.some(function(s){return s[0]===cur&&min>=s[1]&&min<s[2]});badge.textContent=open?(badge.getAttribute('data-open-text')||'Open now'):(badge.getAttribute('data-closed-text')||'Closed now');badge.setAttribute('data-state',open?'open':'closed');badge.hidden=false}}});</script>
+<style>header a[aria-current="page"]:not(:has(img,svg)){text-decoration:underline;text-underline-offset:4px;text-decoration-thickness:1px}</style>
+<link rel="stylesheet" href="/styles.css?v=a21ab5ae">
+</head>
+<body>
+<!-- block:header -->
+<header class="relative bg-surface border-b border-ink/10">
+  <div class="mx-auto max-w-6xl px-4 sm:px-6">
+    <input type="checkbox" id="nav-open" class="peer sr-only">
+    <div class="flex items-center justify-between h-16 md:h-20">
+      <a href="/" class="font-display text-xl md:text-2xl font-bold text-ink tracking-tight">
+        <span data-tibly-field="business-name">Byteforge Dev</span><span class="text-brand-400">_</span>
+      </a>
+      <nav class="hidden md:flex items-center gap-8 font-mono text-sm uppercase tracking-widest text-ink/80">
+        <a href="/" class="hover:text-brand-400 transition-colors duration-200">Home</a>
+        <a href="/about" class="hover:text-brand-400 transition-colors duration-200">About</a>
+        <a href="/services" class="hover:text-brand-400 transition-colors duration-200">Services</a>
+        <a href="/work" class="hover:text-brand-400 transition-colors duration-200" aria-current="page">Work</a>
+        <a href="/contact" class="hover:text-brand-400 transition-colors duration-200">Contact</a>
+      </nav>
+      <a href="/contact" class="hidden md:inline-flex btn">Start a project</a>
+      <label for="nav-open" class="md:hidden cursor-pointer flex flex-col gap-1.5 w-7" aria-label="Menu">
+        <span class="block h-0.5 w-full bg-ink"></span>
+        <span class="block h-0.5 w-full bg-ink"></span>
+        <span class="block h-0.5 w-full bg-ink"></span>
+      </label>
+    </div>
+  </div>
+
+  <div class="hidden peer-checked:flex md:hidden fixed inset-0 z-50 flex-col bg-surface">
+    <div class="flex items-center justify-between px-4 sm:px-6 h-16 border-b border-ink/10">
+      <span class="font-display text-xl font-bold text-ink"><span data-tibly-field="business-name">Byteforge Dev</span><span class="text-brand-400">_</span></span>
+      <label for="nav-open" aria-label="Close" class="cursor-pointer text-ink text-3xl leading-none">&times;</label>
+    </div>
+    <nav class="flex-1 flex flex-col items-start justify-center gap-6 px-8 font-display text-3xl">
+      <a href="/" class="text-ink hover:text-brand-400 transition-colors duration-200">Home</a>
+      <a href="/about" class="text-ink hover:text-brand-400 transition-colors duration-200">About</a>
+      <a href="/services" class="text-ink hover:text-brand-400 transition-colors duration-200">Services</a>
+      <a href="/work" class="text-ink hover:text-brand-400 transition-colors duration-200" aria-current="page">Work</a>
+      <a href="/contact" class="text-ink hover:text-brand-400 transition-colors duration-200">Contact</a>
+    </nav>
+    <div class="p-8">
+      <a href="/contact" class="btn w-full">Start a project</a>
+    </div>
+  </div>
+</header>
+<!-- /block:header -->
+<!-- block:feature-grid -->
+<section class="bg-surface py-20 md:py-32 px-4 sm:px-6" data-block="feature-grid">
+  <div class="mx-auto max-w-6xl">
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-8 items-end mb-14 md:mb-20 pb-8 border-b border-ink/10">
+      <p class="font-mono text-sm text-brand-400 tracking-widest">// selected work</p>
+      <div>
+        <h1 class="font-display text-4xl md:text-6xl font-bold text-ink leading-tight tracking-tight mb-4">Shipped code.<br>Real outcomes.</h1>
+        <p class="font-mono text-sm md:text-base text-ink/70 max-w-prose">Six recent builds, picked because each one solved a problem the client could actually measure. No decks, no mockups pretending to be products, just what went live.</p>
+      </div>
+    </div>
+
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8">
+
+      <article class="card p-0 overflow-hidden group flex flex-col">
+        <div class="aspect-video overflow-hidden border-b border-ink/10">
+          <img loading="lazy" src="https://images.pexels.com/photos/6169127/pexels-photo-6169127.jpeg?auto=compress&cs=tinysrgb&h=650&w=940" alt="dispatch dashboard interface showing delivery routes for a regional logistics company" data-lightbox class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105">
+        </div>
+        <div class="p-6 flex flex-col gap-3 flex-1">
+          <div class="flex flex-wrap gap-2 font-mono text-xs text-brand-400">
+            <span class="border border-brand-400/30 rounded-sm px-2 py-0.5">Django</span>
+            <span class="border border-brand-400/30 rounded-sm px-2 py-0.5">PostgreSQL</span>
+            <span class="border border-brand-400/30 rounded-sm px-2 py-0.5">HTMX</span>
+          </div>
+          <h3 class="font-display text-xl font-bold text-ink">Ridgeline Freight dispatch rebuild</h3>
+          <p class="font-mono text-sm text-ink/70 leading-relaxed flex-1">Replaced a decade-old Django monolith with a single dispatch dashboard, cutting route assignment time from twelve minutes to under three.</p>
+          <p class="font-mono text-xs text-brand-400 pt-2 border-t border-ink/10">$ result: dispatch time down 75%</p>
+        </div>
+      </article>
+
+      <article class="card p-0 overflow-hidden group flex flex-col">
+        <div class="aspect-video overflow-hidden border-b border-ink/10">
+          <img loading="lazy" src="https://images.pexels.com/photos/5998443/pexels-photo-5998443.jpeg?auto=compress&cs=tinysrgb&h=650&w=940" alt="patient appointment scheduling screen on a laptop in a small clinic office" data-lightbox class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105">
+        </div>
+        <div class="p-6 flex flex-col gap-3 flex-1">
+          <div class="flex flex-wrap gap-2 font-mono text-xs text-brand-400">
+            <span class="border border-brand-400/30 rounded-sm px-2 py-0.5">Next.js</span>
+            <span class="border border-brand-400/30 rounded-sm px-2 py-0.5">Twilio</span>
+            <span class="border border-brand-400/30 rounded-sm px-2 py-0.5">Stripe</span>
+          </div>
+          <h3 class="font-display text-xl font-bold text-ink">Pulse Health booking portal</h3>
+          <p class="font-mono text-sm text-ink/70 leading-relaxed flex-1">Built a self-serve scheduler with SMS reminders for a three-location clinic, replacing phone-only booking and daily no-show calls.</p>
+          <p class="font-mono text-xs text-brand-400 pt-2 border-t border-ink/10">$ result: no-shows down 31%</p>
+        </div>
+      </article>
+
+      <article class="card p-0 overflow-hidden group flex flex-col">
+        <div class="aspect-video overflow-hidden border-b border-ink/10">
+          <img loading="lazy" src="https://images.pexels.com/photos/16052345/pexels-photo-16052345.jpeg?auto=compress&cs=tinysrgb&h=650&w=940" alt="e-commerce checkout flow displayed on a phone screen for a home goods store" data-lightbox class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105">
+        </div>
+        <div class="p-6 flex flex-col gap-3 flex-1">
+          <div class="flex flex-wrap gap-2 font-mono text-xs text-brand-400">
+            <span class="border border-brand-400/30 rounded-sm px-2 py-0.5">Remix</span>
+            <span class="border border-brand-400/30 rounded-sm px-2 py-0.5">Shopify API</span>
+            <span class="border border-brand-400/30 rounded-sm px-2 py-0.5">Tailwind</span>
+          </div>
+          <h3 class="font-display text-xl font-bold text-ink">Northfield Home checkout rebuild</h3>
+          <p class="font-mono text-sm text-ink/70 leading-relaxed flex-1">Rebuilt a stock theme checkout into a three-step flow with saved addresses and one-tap reorder for returning customers.</p>
+          <p class="font-mono text-xs text-brand-400 pt-2 border-t border-ink/10">$ result: cart abandonment down 22%</p>
+        </div>
+      </article>
+
+      <article class="card p-0 overflow-hidden group flex flex-col">
+        <div class="aspect-video overflow-hidden border-b border-ink/10">
+          <img loading="lazy" src="https://images.pexels.com/photos/36598869/pexels-photo-36598869.jpeg?auto=compress&cs=tinysrgb&h=650&w=940" alt="financial analytics dashboard with charts on a desktop monitor in an office" data-lightbox class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105">
+        </div>
+        <div class="p-6 flex flex-col gap-3 flex-1">
+          <div class="flex flex-wrap gap-2 font-mono text-xs text-brand-400">
+            <span class="border border-brand-400/30 rounded-sm px-2 py-0.5">React</span>
+            <span class="border border-brand-400/30 rounded-sm px-2 py-0.5">Node</span>
+            <span class="border border-brand-400/30 rounded-sm px-2 py-0.5">D3.js</span>
+          </div>
+          <h3 class="font-display text-xl font-bold text-ink">Northpoint Capital reporting tool</h3>
+          <p class="font-mono text-sm text-ink/70 leading-relaxed flex-1">Turned four spreadsheets analysts rebuilt every Monday into a live dashboard pulling straight from their internal API.</p>
+          <p class="font-mono text-xs text-brand-400 pt-2 border-t border-ink/10">$ result: reporting time down from 6hrs to 20min</p>
+        </div>
+      </article>
+
+      <article class="card p-0 overflow-hidden group flex flex-col">
+        <div class="aspect-video overflow-hidden border-b border-ink/10">
+          <img loading="lazy" src="https://images.pexels.com/photos/7156171/pexels-photo-7156171.jpeg?auto=compress&cs=tinysrgb&h=650&w=940" alt="nonprofit donation page open on a tablet at a community event" data-lightbox class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105">
+        </div>
+        <div class="p-6 flex flex-col gap-3 flex-1">
+          <div class="flex flex-wrap gap-2 font-mono text-xs text-brand-400">
+            <span class="border border-brand-400/30 rounded-sm px-2 py-0.5">Astro</span>
+            <span class="border border-brand-400/30 rounded-sm px-2 py-0.5">Stripe</span>
+            <span class="border border-brand-400/30 rounded-sm px-2 py-0.5">SQLite</span>
+          </div>
+          <h3 class="font-display text-xl font-bold text-ink">Riverside Reads donation site</h3>
+          <p class="font-mono text-sm text-ink/70 leading-relaxed flex-1">Static-first site with a recurring-donation flow for a literacy nonprofit, built to load fast on the older phones most of their donors use.</p>
+          <p class="font-mono text-xs text-brand-400 pt-2 border-t border-ink/10">$ result: recurring donors up 3x in one quarter</p>
+        </div>
+      </article>
+
+      <article class="card p-0 overflow-hidden group flex flex-col">
+        <div class="aspect-video overflow-hidden border-b border-ink/10">
+          <img loading="lazy" src="https://images.pexels.com/photos/326513/pexels-photo-326513.jpeg?auto=compress&cs=tinysrgb&h=650&w=940" alt="SaaS product onboarding screens shown side by side on a designer's monitor" data-lightbox class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105">
+        </div>
+        <div class="p-6 flex flex-col gap-3 flex-1">
+          <div class="flex flex-wrap gap-2 font-mono text-xs text-brand-400">
+            <span class="border border-brand-400/30 rounded-sm px-2 py-0.5">Vue</span>
+            <span class="border border-brand-400/30 rounded-sm px-2 py-0.5">FastAPI</span>
+            <span class="border border-brand-400/30 rounded-sm px-2 py-0.5">Redis</span>
+          </div>
+          <h3 class="font-display text-xl font-bold text-ink">Loomworks onboarding flow</h3>
+          <p class="font-mono text-sm text-ink/70 leading-relaxed flex-1">Rebuilt a 9-step signup for a small SaaS tool down to 3 screens with sensible defaults, tested against their real trial data.</p>
+          <p class="font-mono text-xs text-brand-400 pt-2 border-t border-ink/10">$ result: trial-to-paid up 18%</p>
+        </div>
+      </article>
+
+    </div>
+  </div>
+</section>
+<!-- /block:feature-grid -->
+<!-- block:metric-band -->
+<section class="bg-brand-900 border-y border-ink/10 py-16 md:py-24 px-4 sm:px-6" data-block="metric-band">
+  <div class="mx-auto max-w-6xl">
+    <p class="font-mono text-sm text-brand-400 tracking-widest mb-10">$ cat career_summary.log</p>
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-8 md:gap-6">
+      <div class="border-l border-ink/10 pl-5">
+        <p class="font-display text-4xl md:text-6xl font-bold text-brand-400"><span data-count>40+</span></p>
+        <p class="font-mono text-xs md:text-sm text-ink/60 mt-2 uppercase tracking-widest">Projects shipped</p>
+      </div>
+      <div class="border-l border-ink/10 pl-5">
+        <p class="font-display text-4xl md:text-6xl font-bold text-brand-400"><span data-count>6</span></p>
+        <p class="font-mono text-xs md:text-sm text-ink/60 mt-2 uppercase tracking-widest">Years building</p>
+      </div>
+      <div class="border-l border-ink/10 pl-5">
+        <p class="font-display text-4xl md:text-6xl font-bold text-brand-400"><span data-count>12</span></p>
+        <p class="font-mono text-xs md:text-sm text-ink/60 mt-2 uppercase tracking-widest">Industries served</p>
+      </div>
+      <div class="border-l border-ink/10 pl-5">
+        <p class="font-display text-4xl md:text-6xl font-bold text-brand-400"><span data-count>0</span></p>
+        <p class="font-mono text-xs md:text-sm text-ink/60 mt-2 uppercase tracking-widest">Missed launch dates</p>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- /block:metric-band -->
+<!-- block:trust-bar -->
+<section class="bg-surface py-14 md:py-20 overflow-hidden" data-block="trust-bar">
+  <div class="mx-auto max-w-6xl px-4 sm:px-6 mb-8">
+    <p class="font-mono text-sm text-ink/50 tracking-widest text-center md:text-left">$ grep -r "client" ./work_history</p>
+  </div>
+  <div class="overflow-hidden">
+    <div class="flex w-max animate-marquee gap-16 font-mono text-lg md:text-2xl uppercase tracking-widest text-ink/30">
+      <span class="hover:text-brand-400 transition-colors duration-200">Ridgeline Freight</span>
+      <span class="hover:text-brand-400 transition-colors duration-200">Pulse Health</span>
+      <span class="hover:text-brand-400 transition-colors duration-200">Northfield Home</span>
+      <span class="hover:text-brand-400 transition-colors duration-200">Northpoint Capital</span>
+      <span class="hover:text-brand-400 transition-colors duration-200">Riverside Reads</span>
+      <span class="hover:text-brand-400 transition-colors duration-200">Loomworks</span>
+      <span class="hover:text-brand-400 transition-colors duration-200">Ridgeline Freight</span>
+      <span class="hover:text-brand-400 transition-colors duration-200">Pulse Health</span>
+      <span class="hover:text-brand-400 transition-colors duration-200">Northfield Home</span>
+      <span class="hover:text-brand-400 transition-colors duration-200">Northpoint Capital</span>
+      <span class="hover:text-brand-400 transition-colors duration-200">Riverside Reads</span>
+      <span class="hover:text-brand-400 transition-colors duration-200">Loomworks</span>
+    </div>
+  </div>
+</section>
+<!-- /block:trust-bar -->
+<!-- block:cta-banner -->
+<section class="bg-brand-900 border-t border-ink/10 py-20 md:py-28 px-4 sm:px-6" data-block="cta-banner">
+  <div class="mx-auto max-w-6xl">
+    <div class="border border-brand-400/20 rounded-lg bg-surface p-8 md:p-14 grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
+      <div>
+        <p class="font-mono text-sm text-brand-400 mb-4">$ ./start_project.sh</p>
+        <h2 class="font-display text-3xl md:text-5xl font-bold text-ink leading-tight mb-4">Got a project that needs<br>this kind of attention?</h2>
+        <p class="font-mono text-sm md:text-base text-ink/70 max-w-prose">Tell me what you're building and what's slow or broken about the current setup. I'll tell you honestly whether a rebuild is worth it or a smaller fix will do.</p>
+      </div>
+      <div class="flex flex-col sm:flex-row gap-4 md:justify-end">
+        <a href="/contact" class="btn w-full sm:w-auto">Start a project</a>
+        <a href="/services" class="btn-secondary w-full sm:w-auto">View services</a>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- /block:cta-banner -->
+<!-- block:footer -->
+<footer class="relative bg-surface border-t border-ink/10 pt-16 pb-24 md:pb-12 px-4 sm:px-6">
+  <div class="mx-auto max-w-6xl grid grid-cols-1 md:grid-cols-3 gap-12 font-body text-ink/80">
+    <div>
+      <p class="font-display text-2xl font-bold text-ink mb-3"><span data-tibly-field="business-name">Byteforge Dev</span><span class="text-brand-400">_</span></p>
+      <p class="text-sm leading-relaxed max-w-xs">Custom websites and web apps built by a developer who ships clean, fast code. Based in Austin, working with businesses everywhere.</p>
+      <div data-tibly-field="links" class="flex gap-4 mt-5">
+        <a href="https://github.com" class="text-ink/60 hover:text-brand-400 text-sm font-mono transition-colors duration-200">GitHub</a>
+        <a href="https://linkedin.com" class="text-ink/60 hover:text-brand-400 text-sm font-mono transition-colors duration-200">LinkedIn</a>
+      </div>
+    </div>
+    <div>
+      <p class="font-mono text-xs uppercase tracking-widest text-brand-400 mb-4">Navigate</p>
+      <nav class="flex flex-col gap-3 text-sm">
+        <a href="/" class="hover:text-brand-400 transition-colors duration-200">Home</a>
+        <a href="/about" class="hover:text-brand-400 transition-colors duration-200">About</a>
+        <a href="/services" class="hover:text-brand-400 transition-colors duration-200">Services</a>
+        <a href="/work" class="hover:text-brand-400 transition-colors duration-200">Work</a>
+        <a href="/contact" class="hover:text-brand-400 transition-colors duration-200">Contact</a>
+      </nav>
+    </div>
+    <div>
+      <p class="font-mono text-xs uppercase tracking-widest text-brand-400 mb-4">Contact</p>
+      <ul class="flex flex-col gap-3 text-sm">
+        <li><a href="tel:+15550192884" data-tibly-field="phone" class="hover:text-brand-400 transition-colors duration-200">(555) 019-2884</a></li>
+        <li><a href="mailto:hello@byteforgedev.com" data-tibly-field="email" class="hover:text-brand-400 transition-colors duration-200 break-words">hello@byteforgedev.com</a></li>
+        <li><span data-tibly-field="address">214 Ridgeline Ave, Austin, TX 78701</span></li>
+        <li><span data-tibly-field="hours">Mon-Fri 9am to 6pm CST</span></li>
+      </ul>
+    </div>
+  </div>
+  <div class="mx-auto max-w-6xl mt-12 pt-6 border-t border-ink/10 text-xs font-mono text-ink/40">
+    <span data-tibly-field="business-name">Byteforge Dev</span> &copy; 2024. Built with care in Austin, TX.
+  </div>
+
+  <div class="md:hidden fixed bottom-0 inset-x-0 z-40 bg-surface border-t border-ink/10">
+    <a href="tel:+15550192884" data-tibly-field="phone" class="flex items-center justify-center w-full bg-brand-400 text-surface font-display font-semibold text-base py-4">Call (555) 019-2884</a>
+  </div>
+</footer>
+<!-- /block:footer -->
+  <script async src="https://api.tibly.ai/widget/v1.js"></script>
+</body>
+</html>
